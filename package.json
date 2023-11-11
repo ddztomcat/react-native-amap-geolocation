@@ -25,7 +25,7 @@
   ],
   "main": "lib/js",
   "scripts": {
-    "build-docs": "npx typedoc --out docs/api --excludeNotExported --module commonjs --mode file src",
+    "build-docs": "npx typedoc@0.24.0    --out docs/api --excludeNotExported --module commonjs --mode file src",
     "start": "react-native start",
     "reload": "adb reverse tcp:8081 tcp:8081 && adb shell input text rr",
     "android": "react-native run-android",

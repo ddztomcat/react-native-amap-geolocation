@@ -7,7 +7,7 @@ build/
 xcuserdata/
 *.xcworkspace/
 Pods/
-lib/js/
+# lib/js/
 *.framework/
 
 .project
